@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 
 export const ContainerPokedex = styled.section`
-  /* width: 25%; */
-  /* height: 25%; */
+  width: 50%;
+  height: 50%;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
