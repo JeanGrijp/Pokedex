@@ -4,11 +4,11 @@ import { CardContextProvider } from '../contexts/Card/Card';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <CardContextProvider>
+    <>
 
       <GlobalStyle />
       <Component {...pageProps} />
-    </CardContextProvider>
+    </>
 
   );
 }
