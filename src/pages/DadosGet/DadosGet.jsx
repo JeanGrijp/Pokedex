@@ -103,9 +103,9 @@ function DadosGet() {
               if (element[2] === 'grass') {
                 return '#21610B';
               }
-              if (element[2] === 'fire') {
-                return '#8A0808';
-              }
+              // if (element[2] === 'fire') {
+              //   return '#8A0808';
+              // }
               if (element[2] === 'water') {
                 return '#08088A';
               }
@@ -113,7 +113,7 @@ function DadosGet() {
                 return '#5FB404';
               }
               if (element[2] === 'fire') {
-                return '#8A0808';
+                return '#F78181';
               }
               if (element[2] === 'normal') {
                 return '#585858';
@@ -154,6 +154,9 @@ function DadosGet() {
               if (element[2] === 'dark') {
                 return '#122626';
               }
+              if (element[2] === 'steel') {
+                return '#6E6E6E';
+              }
             }
           }
           >
@@ -165,7 +168,7 @@ function DadosGet() {
             <ImagemB src={element[3]} />
           </ContainerPokedex>
         ))
-        : <></>}
+        : <p>Renderizando</p>}
     </section>
   );
 }

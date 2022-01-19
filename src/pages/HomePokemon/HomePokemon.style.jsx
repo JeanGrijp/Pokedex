@@ -7,12 +7,10 @@ export const ContainerHomePokemon = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
-
-
 `;
 
 export const PokemonsList = styled.section`
+position: relative;
   width: 80%;
   height: 80%;
   background-color: #380B61;
@@ -41,13 +39,11 @@ export const ListGuidePokemons = styled.section`
   border-radius: 20px;       
   border: 3px solid gray;  
 }
-
+  position: relative;
   margin: 5%;
   width: 40%;
   height: 60%;
   border-radius: 26px 26px 26px 26px;
-  background-color: aliceblue;
-  /* border: 1px solid red; */
   background-color: #210B61;
   overflow: auto;
   display: flex;
@@ -56,6 +52,10 @@ export const ListGuidePokemons = styled.section`
   align-items: center;
   box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.75);
 
-
-
+  .center {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+  }
 `;

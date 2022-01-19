@@ -8,7 +8,10 @@ function HomePokemon() {
     <ContainerHomePokemon>
       <PokemonsList>
         <ListGuidePokemons className="ListGuide">
-          <DadosGet />
+          <section className="center">
+
+            <DadosGet />
+          </section>
         </ListGuidePokemons>
         <ListGuidePokemons />
       </PokemonsList>
