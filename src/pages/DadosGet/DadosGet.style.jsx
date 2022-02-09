@@ -2,16 +2,14 @@ import styled from 'styled-components';
 
 export const ContainerPokedex = styled.section`
   background-color: ${(props) => props.color};
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 30px;
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
   border: 2px solid white;
-  margin: 15px;
+  /* margin: 15px; */
   border-radius: 38px 38px 38px 38px;  
-
-
 `;
 
 export const DadosLi = styled.article`
@@ -35,8 +33,9 @@ export const TextsNameType = styled.section`
   flex-direction: column;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
+    cursor: pointer;
   }
 
   h6 {

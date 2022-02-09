@@ -23,7 +23,6 @@ function TextsPokemons(props) {
       if (element.language.name === 'en' && index % 2 !== 0) {
         const aux = element.flavor_text.replace('\n', ' ');
         setresultTexts((prev) => `${prev + aux.replace('\f', ' ')} `);
-        // setresultTexts(aux.replace('\f', ' '));
       }
     });
   }, [texts]);

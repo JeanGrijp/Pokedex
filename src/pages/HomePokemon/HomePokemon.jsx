@@ -1,20 +1,25 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import ChoosePokemon from '../ChoosePokemon/ChoosePokemon';
 import DadosGet from '../DadosGet/DadosGet';
-import { ContainerHomePokemon, PokemonsList, ListGuidePokemons } from './HomePokemon.style';
+import {
+  ContainerHomePokemon, PokemonsList, ListGuidePokemons, ListCardPokemons,
+} from './HomePokemon.style';
 
 function HomePokemon() {
   return (
     <ContainerHomePokemon>
-      <PokemonsList>
+      {/* <PokemonsList>
         <ListGuidePokemons className="ListGuide">
           <section className="center">
 
             <DadosGet />
           </section>
         </ListGuidePokemons>
-        <ListGuidePokemons />
-      </PokemonsList>
+        <ListCardPokemons>
+          <ChoosePokemon />
+        </ListCardPokemons>
+      </PokemonsList> */}
     </ContainerHomePokemon>
   );
 }
